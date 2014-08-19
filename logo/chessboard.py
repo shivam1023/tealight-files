@@ -9,7 +9,7 @@ def polygon(edges, size):
     turn(angle)
     
     turn(angle)
-    for i in range(0, edges):
+  for i in range(0, edges):
     move(size)
     turn(angle)
     
