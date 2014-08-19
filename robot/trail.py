@@ -10,6 +10,5 @@ from tealight.robot import (move,
 
 while True:
   if touch()=="fruit":
-   
-  move()
-    
+    move() 
+    continue
