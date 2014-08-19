@@ -5,4 +5,6 @@ from tealight.robot import (move,
                             smell, 
                             left_side, 
                             right_side)
-move(2)
+
+for i in range(0,5):
+ move()
