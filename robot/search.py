@@ -12,4 +12,5 @@ while True:
   move()
   
   if touch() == "wall":
-    turn(2)
+    turn(1)
+    
