@@ -19,8 +19,8 @@ def movement():
    
 while True: 
  movement() 
- turn(1)
  if left_side()!="wall":
+    turn(1)
     continue
       
     
