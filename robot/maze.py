@@ -12,3 +12,7 @@ turn(1)
 for i in range(0,3):
  move()
 turn(-1)
+for i in range(0,5):
+ move()
+turn(1) 
+
