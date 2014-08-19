@@ -8,10 +8,7 @@ def polygon(edges, size):
     move(size)
     turn(angle)
     
-    turn(angle)
-  for i in range(0, edges):
-    move(size*2)
-    turn(angle)
+   
     
     
     
