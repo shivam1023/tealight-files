@@ -14,4 +14,4 @@ def polygon(edges, size):
     
     
    
-polygon(4,30)
+polygon(4,128)
