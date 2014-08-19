@@ -6,9 +6,11 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-
-while touch()!="wall":
+def move():
+ while touch()!="wall":
   move()
+   
+  
   
   
   
