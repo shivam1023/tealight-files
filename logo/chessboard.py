@@ -11,8 +11,8 @@ def square(edges, size):
     
 
   
-  for n in range(0,8):
+
     square(4,30)
-    move (30)
+
   
   
