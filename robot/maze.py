@@ -17,9 +17,9 @@ from tealight.robot import (move,
    
 while True: 
  if right_side()!="wall" || left_side()!="wall":
-    turn(1)
-    move()
-    continue
+  turn(1)
+  move()
+  continue
  move()     
    
    
