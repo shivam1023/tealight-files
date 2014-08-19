@@ -1,6 +1,6 @@
 from tealight.logo import move, turn
 
-def polygon(edges, size):
+def square(edges, size):
   angle = 360.0 / edges
   
   
@@ -17,5 +17,4 @@ def polygon(edges, size):
     
     
    
-polygon(4,128)
-polygon(4,2)
+square(4,128)
