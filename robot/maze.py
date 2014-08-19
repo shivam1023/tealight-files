@@ -20,6 +20,10 @@ while True:
   turn(1)
   move()
   continue
+ else 
+   if left_side()!="wall":
+      turn(-1)
+      move()
  move()     
    
    
