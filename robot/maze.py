@@ -16,11 +16,11 @@ from tealight.robot import (move,
   
    
 while True: 
- move() 
  if left_side()!="wall":
     turn(1)
     continue
- turn(-1)   
+ move()     
+   
    
     
       
