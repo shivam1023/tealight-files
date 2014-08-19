@@ -12,8 +12,7 @@ def movement():
   
    
 while True: 
- movement()
-  if 
+ movement() 
  turn(1)
  if touch()!="wall":
     continue
