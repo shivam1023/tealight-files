@@ -8,6 +8,9 @@ def polygon(edges, size):
     move(size)
     turn(angle)
     
+    
+    
+    
 
     
  
@@ -15,3 +18,4 @@ def polygon(edges, size):
     
    
 polygon(4,128)
+polygon(4,2)
