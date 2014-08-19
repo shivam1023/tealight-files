@@ -8,13 +8,4 @@ def square(edges, size):
     move(size)
     turn(angle)
 
-    
-    
-    
-
-    
- 
-    
-    
-   
 square(4,128)
