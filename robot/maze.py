@@ -7,14 +7,11 @@ from tealight.robot import (move,
                             right_side)
 
 def movement():
-  moves=0
-  while moves<1250:
-   while touch()!="wall":
+  while touch()!="wall":
     move()
-   if touch()=="wall":
-    turn(1)
+  
    
-  
-movement()  
-  
-  
+while True: 
+ movement()
+ if touch()=="wall":
+   turn(1)
