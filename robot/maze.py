@@ -20,8 +20,8 @@ while True:
   turn(1)
   move()
   continue
- elif
-  if left_side()!="wall":
+  elif
+   if left_side()!="wall":
      turn(-1)
      move()
  move()     
