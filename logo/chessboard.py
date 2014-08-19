@@ -9,9 +9,4 @@ def polygon(edges, size):
     turn(angle)
     
    
-    
-    
-    
-    
-    
 polygon(4,30)
