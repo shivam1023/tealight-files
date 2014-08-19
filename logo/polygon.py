@@ -1,9 +1,9 @@
 from tealight.logo import move, turn
 
 def polygon(edges, size):
-  angle = 360.0 
+  angle = 360.0 / edges
   for i in range(0, edges):
     move(size)
     turn(angle)
     
-polygon(0,150)
+polygon(6,150)
