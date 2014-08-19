@@ -22,6 +22,7 @@ while True:
  if left_side()!="wall":
     turn(1)
     continue
+ continue
       
     
     
