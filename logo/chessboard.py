@@ -12,6 +12,7 @@ for n2 in range(0,8):
  for n in range(0,8):
   square()
   move(30)
+  turn(90)
 
   
   
