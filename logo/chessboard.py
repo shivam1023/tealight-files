@@ -9,9 +9,8 @@ def square(edges, size):
     turn(angle)
     
     
-    
-for n2 in range(0,8):
-  turn(90)
+
+  
    for n in range(0,8):
     square(4,30)
     move (30)
