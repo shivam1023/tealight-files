@@ -11,4 +11,4 @@ for i in range(0,7):
 turn(1)  
 for i in range(0,3):
  move()
-  turn(-1)
+turn(-1)
