@@ -15,17 +15,15 @@ def handle_keydown(key):
 
   if key == "left":
     ax = -power
-    ay=0.1
+
   elif key == "right":
     ax = power 
-    ay= 0.1
+  
   elif key == "up":
     ay = -power
-    
   elif key == "down":
     ay = power
     
-
 def handle_keyup(key):
   global ax, ay
 
