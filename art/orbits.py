@@ -5,7 +5,7 @@ y = 400
 vx = 0
 vy = 0
 ax = 0
-ay = 0
+ay = 1
 
 power = 0.3
 
@@ -24,7 +24,6 @@ def handle_keydown(key):
 
 def handle_keyup(key):
   global ax, ay
-  ay=0
 
   if key == "left" or key == "right":
     ax = 0
