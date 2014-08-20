@@ -12,19 +12,24 @@ from tealight.robot import (move,
     
    
     
-    
+ int moves   
   
    
 while True: 
   move()
+  moves=moves+1
   if left_side()!="wall":
-    turn(1)
-    move() 
-    continue
-  if touch()=="wall":
     turn(-1)
     move() 
+    moves=moves+1
     continue
+  if touch()=="wall":
+    turn(1)
+    move()
+    moves=moves+1
+    continue
+    
+  print moves  
     
     
  
