@@ -13,7 +13,7 @@ line(0,0,screen_width, screen_height)
 
 spot(200,300, 20)
 
-circle(300,200, 20)
+circle(300,200, 50)
 
 box(500, 500, 60, 60)
 
