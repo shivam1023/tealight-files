@@ -10,7 +10,7 @@ background("paper.jpg")
 image(200,200,"misc/Card.png")
  
   
-array=[48]
+array=[1,2,3,4,5]
 
   
 lastx = 0
