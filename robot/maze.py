@@ -24,8 +24,7 @@ while True:
     move()
     moves=moves+1
     continue
-  if moves>910:
-    turn(2)
+  print moves
     
   
     
