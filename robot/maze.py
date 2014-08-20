@@ -12,7 +12,7 @@ from tealight.robot import (move,
     
    
     
- int moves   
+int moves   
   
    
 while True: 
