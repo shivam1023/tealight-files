@@ -17,12 +17,10 @@ while True:
   if left_side()!="wall":
     turn(-1)
     move() 
-   
     continue
   if touch()=="wall":
     turn(1)
     move()
-   
     continue
     
  
