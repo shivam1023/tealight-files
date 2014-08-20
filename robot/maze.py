@@ -15,7 +15,7 @@ while True:
   move()
   moves=moves+1
   if left_side()!="wall":
-    turn(-1)
+    turn(-2)
     move()
     moves=moves+1
     continue
