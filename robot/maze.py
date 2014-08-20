@@ -24,7 +24,9 @@ while True:
     move()
     moves=moves+1
     continue
-  print moves  
+  if moves==906:
+    turn(2)
+    move()
     
  
     
