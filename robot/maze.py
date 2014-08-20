@@ -9,7 +9,7 @@ from tealight.robot import (move,
 
 
 
-
+moves=0
    
 while True: 
   move()
