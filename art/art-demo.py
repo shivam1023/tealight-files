@@ -38,3 +38,12 @@ def handle_mousemove(x,y):
   lastx = x
   lasty = y
   
+def handle_mousedown(x,y):
+  global lastx,lasty,hue
+  line(lastx or x,lasty or y, x, y)
+  color("hsl(%d,100%%,50%%)" % hue)
+  
+  hue+=1
+  
+  lastx=x
+  lasty=y
