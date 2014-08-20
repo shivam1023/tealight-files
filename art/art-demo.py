@@ -16,6 +16,5 @@ lastx = None
 lasty = None
 
 
-def handle_mousemove(x,y):
   
   
