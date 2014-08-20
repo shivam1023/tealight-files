@@ -24,6 +24,7 @@ while True:
     move()
     moves+=1
     continue
+  print moves  
     
  
     
