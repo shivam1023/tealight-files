@@ -1,18 +1,20 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 from tealight.art import (screen_width, screen_height)
 
-intarray = array(48)
+
 
 print screen_width
 print screen_height
 
 background("paper.jpg")
 image(200,200,"misc/Card.png")
+ 
+  
+array=[48]
 
+  
 lastx = 0
 lasty = 0
-
-
 def handle_mousedown(x,y):
   global lastx, lasty
   
