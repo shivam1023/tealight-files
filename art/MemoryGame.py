@@ -1,5 +1,5 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
-from array import array
+from tealight.art import array
 from tealight.art import (screen_width, screen_height)
 
 intarray = array(48)
