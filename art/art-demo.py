@@ -8,20 +8,9 @@ print screen_width
 print screen_height
 
 background("paper.jpg")
+image(200,200,"cat.png")
 
-line(0,0,screen_width, screen_height)
 
-spot(200,300, 20)
-
-circle(300,200, 50)
-
-box(500, 500, 60, 60)
-
-image(200,200,"bird.png")
-
-line(560,0,560,495)
-
-text(600, 100, "Hello Tealight!")
 
 lastx = None
 lasty = None
