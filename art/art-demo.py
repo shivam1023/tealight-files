@@ -8,7 +8,7 @@ print screen_width
 print screen_height
 
 background("paper.jpg")
-image(200,200,"animals\ant.png")
+image(200,200,"animals/ant.png")
 
 
 
