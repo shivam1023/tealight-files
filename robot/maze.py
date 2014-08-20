@@ -25,7 +25,7 @@ while True:
    
     continue
     
-  print moves  
+ 
     
     
  
