@@ -5,6 +5,10 @@ import random
 background("paper.jpg")
 image(200,200,"misc/Card.png")
 
+class Card():
+  def __init__(self):
+    self.Suit = 0
+    self.Rank = 0
 
 
 listOfCards=[i for i in range(6)]+[i for i in range(8)]
