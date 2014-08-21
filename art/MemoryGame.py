@@ -44,7 +44,7 @@ def placeCards():
       y = y + 100
       
 #handle mouse events etc  
-def mousestuff():
+
  lastx = 0
  lasty = 0
 
@@ -66,6 +66,7 @@ def mousestuff():
 shuffleCards()  
 assignImages()
 placeCards()
+
   
   
   
