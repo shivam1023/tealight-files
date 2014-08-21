@@ -16,7 +16,7 @@ class Card():
 Cards = [None] 
 
 
-Cards=[i for i in range(6)]+[i for i in range(8)]
+Cards=[i for i in range(2)]+[i for i in range(2)]
 random.shuffle(Cards)
 turnedOver=[False for i in range(16)]
 
