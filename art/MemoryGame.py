@@ -23,17 +23,18 @@ deck = [[Card() for i in range(2)] for j in range(2)]
 
 
 #write function to assign images to Card objects
-
+def assignImages():
   
-deck[0][0].name="animals/Ant.png"
+ deck[0][0].name="animals/Ant.png"
   
   
 
 #create a grid of cards using for loop etc
-
-image(200,200,deck[0][0].name)
+def createGrid():
+ image(200,200,deck[0][0].name)
  
-
+assignImages()
+createGrid()
   
   
   
