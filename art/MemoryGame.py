@@ -18,6 +18,9 @@ animals = ["animals/Bear.png", "animals/Bear.png", "animals/Cat.png", "animals/C
 global deck
 deck = [Card() for i in range(48)]
 
+x=0
+y=0
+
 
 #shuffle string array of image locations
 def shuffleCards():
@@ -33,7 +36,11 @@ def assignImages():
   
 
 #create a grid of cards using for loop etc
-def placeCards():   
+def placeCards(): 
+
+  global x
+  global y
+  
   x = 150
   y = 150
   for i in range(0,48):
@@ -46,6 +53,9 @@ def placeCards():
       
 #assign individual card
 def refreshCards(v):
+  
+  global x
+  global y
     
   x = 150
   y = 150
@@ -88,6 +98,8 @@ def handle_mousedown(x,y,button):
   global cards_clicked
   global temp
   global score
+  global x
+  global y
   
   if button == "left":
     lastx = x
