@@ -39,7 +39,7 @@ def placeCards():
   x = 100
   y = 100
   
-  for i in deck:
+  for i in deck[i].name2:
     
     
     
