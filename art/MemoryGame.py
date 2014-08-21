@@ -4,7 +4,7 @@ import random
 
 background("paper.jpg")
 image(200,200,"misc/Card.png")
-animals=["animals/Ant.png"]
+animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.png"]
 
 class Card():
   def __init__(self):
