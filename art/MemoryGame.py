@@ -108,10 +108,16 @@ def handle_mousedown(x,y,button):
     
      temp = v
       
-     refreshCards(v) 
+     #refreshCards(v)
+      
+     image(x,y,deck[v].name2)
+      if x < 600:
+       x = x + 100
+      else:
+       x = 150
+       y = y + 100
       
     if cards_clicked==2:
-        refreshCards(v)
       
         if deck[temp].name2==deck[v].name2:
           score=score+1
