@@ -63,7 +63,7 @@ def handle_mousemove(x,y,button):
 shuffleCards()  
 assignImages()
 placeCards()
-image(50,50,deck[5].name2)
+image(50,50,deck[6].name2)
 
   
   
