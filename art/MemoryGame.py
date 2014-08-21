@@ -11,8 +11,9 @@ class Card:
     self.name2= ""
     self.turnedOver=False
     
-global animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.png"]
-    
+global animals
+animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.png"]
+
 global deck
 deck = [[Card() for i in range(2)] for j in range(2)]
    
