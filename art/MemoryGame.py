@@ -34,12 +34,12 @@ def assignImages():
   
 
 #create a grid of cards using for loop etc
-def placeAnimals(): 
+def placeCards(): 
   
   x = 100
   y = 100
   
-  for i in animals[::-1]:
+  for i in deck[i].name2[::-1]:
     
     
     
@@ -60,7 +60,7 @@ def placeAnimals():
   
 shuffleCards()  
 assignImages()
-placeAnimals()
+placeCards()
   
   
   
