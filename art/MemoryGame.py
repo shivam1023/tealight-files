@@ -37,7 +37,9 @@ def assignImages():
 
 #create a grid of cards using for loop etc
 def createGrid():
- image(200,200,deck[0][0].name2)
+  for i in range(0,2):
+    for j in range(0,2):
+     image(200,200,deck[i][j].name2)
  
 
   
