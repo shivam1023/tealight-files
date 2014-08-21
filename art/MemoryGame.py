@@ -98,8 +98,7 @@ def handle_mousedown(x,y,button):
   global cards_clicked
   global temp
   global score
-  global x
-  global y
+
   
   if button == "left":
     lastx = x
@@ -120,15 +119,8 @@ def handle_mousedown(x,y,button):
     
      temp = v
       
-     #refreshCards(v)
-      
-     image(x,y,deck[v].name2)
-     if x < 600:
-       x = x + 100
-     else:
-       x = 150
-       y = y + 100
-      
+     refreshCards(v)
+     
     if cards_clicked==2:
       
         if deck[temp].name2==deck[v].name2:
