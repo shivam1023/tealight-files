@@ -11,7 +11,7 @@ print screen_height
 background("paper.jpg")
 image(200,200,"misc/Card.png")
 
-listOfCards=[i for i in range(8)]+[i for i in range(8)]
+listOfCards=[i for i in range(6)]+[i for i in range(8)]
  
 lastx = 0
 lasty = 0
