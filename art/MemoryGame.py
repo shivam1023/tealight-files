@@ -4,7 +4,6 @@ import random
 
 background("paper.jpg")
 
-animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.png"]
 
 class Card:
   def __init__(self):
@@ -12,6 +11,7 @@ class Card:
     self.name2= ""
     self.turnedOver=False
     
+global animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.png"]
     
 global deck
 deck = [[Card() for i in range(2)] for j in range(2)]
@@ -20,6 +20,8 @@ deck = [[Card() for i in range(2)] for j in range(2)]
   
   
 #shuffle string array of image locations
+def shuffleCards():
+ random.shuffle(animals)
 
 
 
