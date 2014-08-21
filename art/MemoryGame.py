@@ -4,16 +4,21 @@ import random
 
 background("paper.jpg")
 image(200,200,"misc/Card.png")
+animals=["animals/Ant.png"]
 
 class Card():
   def __init__(self):
-    self.Suit = 0
-    self.Rank = 0
-
+    name = ""
+    turnedOver=False
+   
     
-global Cards
+
+Cards = [None] 
+
+
 Cards=[i for i in range(6)]+[i for i in range(8)]
 random.shuffle(Cards)
+turnedOver=[False for i in range(16)]
 
  
 
