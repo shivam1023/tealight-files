@@ -118,11 +118,11 @@ def handle_mousedown(x,y,button):
           cards_clicked=0
           temp=None
           v=None
-      else:
-        refreshCards(v)
-        cards_clicked=0
-        temp=None
-        v=None
+        else:
+          refreshCards(v)
+          cards_clicked=0
+          temp=None
+          v=None
      
     
     #elif cards_clicked == 2:
