@@ -43,10 +43,35 @@ def placeCards():
       x = 150
       y = y + 100
       
+#assign individual card
+def refreshCards(v):
+    
+  x = 150
+  y = 150
+  for i in range(0,48):
+    if i==v:
+      image(x,y,deck[v].name2)
+    else:  
+      image(x, y,deck[i].name1)
+      if x < 600:
+       x = x + 100
+      else:
+       x = 150
+       y = y + 100
+      
+      
       
 #handle mouse events etc  
 lastx = 0
 lasty = 0
+
+global cards_clicked
+cards_clicked =0
+
+score = 0
+
+global temp 
+temp = None
 
 #Click detection and card identification
 def handle_mousedown(x,y,button):
@@ -59,15 +84,80 @@ def handle_mousedown(x,y,button):
     b = (lasty - 150)/100
     v = b * 6 + a
     print "Cell: (%d, %d), n: %d" % (a,b,v)
-        
+    
+    
+
+    #when a card has been clicked
+
+    if cards_clicked < 2:
+  
+     cards_clicked = cards_clicked + 1
+    
+     temp = v
+     
+    
+    elif cards_clicked == 2:
+  
+     if temp == v:  #possibly need new variable or to reference deck[]
+      if deck[temp].name2==deck[v].name2:
+       score = score + 1
+      
+       cards_clicked = 0
+      
+     
+    
+      #flip cards back over
+   
+
+
   
   
   
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+         
+  
 shuffleCards()  
 assignImages()
 placeCards()
-
+   
   
   
   
