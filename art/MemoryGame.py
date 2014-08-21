@@ -10,9 +10,11 @@ class Card():
     self.Suit = 0
     self.Rank = 0
 
+    
+global Cards
+Cards=[i for i in range(6)]+[i for i in range(8)]
+random.shuffle(Cards)
 
-listOfCards=[i for i in range(6)]+[i for i in range(8)]
-random.shuffle(listOfCards)
  
 
   
