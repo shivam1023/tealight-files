@@ -20,7 +20,7 @@ deck = [[Card() for i in range(2)] for j in range(2)]
   
 #shuffle string array of image locations
 
-print deck
+print deck[0]
 
 #write function to assign images to Card objects
 def assignImages():
