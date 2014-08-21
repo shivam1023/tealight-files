@@ -6,13 +6,14 @@ background("paper.jpg")
 image(200,200,"misc/Card.png")
 animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.png"]
 
-class Card():
-  def __init__(self):
+class Card:
+  def __init__(self,image):
     self.name = ""
     self.turnedOver=False
    
 #create an array of objects of Card class 
-deck=[Card() for i in range(2)]+[Card() for i in range(2)]
+def deckarray:
+ deck=[Card() for i in range(2)]+[Card() for i in range(2)]
 
 #write function to display images to cards
 
