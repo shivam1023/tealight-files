@@ -65,8 +65,8 @@ def refreshCards(v):
 lastx = 0
 lasty = 0
 
-global cards_clicked
-cards_clicked =0
+
+
 
 score = 0
 
@@ -85,7 +85,8 @@ def handle_mousedown(x,y,button):
     v = b * 6 + a
     print "Cell: (%d, %d), n: %d" % (a,b,v)
     
-    
+    global cards_clicked
+    cards_clicked =0
 
     #when a card has been clicked
 
