@@ -25,7 +25,7 @@ def assignImages():
   
 
 #create a grid of cards using for loop etc
-image(200,200,deck[1])
+image(200,200,deck[1].name)
  
 
   
