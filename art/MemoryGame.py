@@ -33,7 +33,7 @@ def assignImages():
 
 #create a grid of cards using for loop etc
 def createGrid():
- image(200,200,deck[0][0].name1)
+ image(200,200,deck[0][0].name2)
  
 assignImages()
 createGrid()
