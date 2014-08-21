@@ -15,8 +15,9 @@ class Card:
 def createDeck():
  deck=[Card() for i in range(2)]+[Card() for i in range(2)]
 
-#write function to assign images to cards
-
+#write function to assign images to Card objects
+def assignImages():
+  deck[1].name="animals/Ant.png"
  
 
 
