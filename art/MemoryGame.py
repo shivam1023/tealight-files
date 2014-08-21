@@ -123,7 +123,7 @@ def handle_mousedown(x,y,button):
          temp=None
          v=None 
          cards_clicked=0
-         refreshCards(v)
+         placeCards()
           
      
       
