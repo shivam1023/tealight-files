@@ -25,6 +25,7 @@ def assignImages():
   
 
 #create a grid of cards using for loop etc
+
 image(200,200,deck[1].name)
  
 
@@ -38,6 +39,7 @@ image(200,200,deck[1].name)
   
   
 #handle mouse events etc  
+
 lastx = 0
 lasty = 0
 
