@@ -8,7 +8,7 @@ animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.pn
 
 class Card:
   def __init__(self):
-    self.name = "misc/Card.png"
+    self.name1 = "misc/Card.png"
     self.name2= ""
     self.turnedOver=False
     
@@ -26,13 +26,14 @@ deck = [[Card() for i in range(2)] for j in range(2)]
 #write function to assign images to Card objects
 def assignImages():
   
+  
  deck[0][0].name2="animals/Ant.png"
   
   
 
 #create a grid of cards using for loop etc
 def createGrid():
- image(200,200,deck[0][0].name2)
+ image(200,200,deck[0][0].name1)
  
 assignImages()
 createGrid()
