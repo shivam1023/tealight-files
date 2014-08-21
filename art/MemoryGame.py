@@ -28,21 +28,39 @@ def shuffleCards():
 
 #write function to assign images to Card objects
 def assignImages():
-  for i in range(0,3):
+  for i in range(0,48):
      deck[i].name2=animals[i]
   
   
 
 #create a grid of cards using for loop etc
-def createGrid():
-  for i in range(0,3):
-     image(200,200,deck[i].name2)
+def placeAnimals(): 
+  
+  x = 100
+  y = 100
+  
+  for i in animals[::-1]:
+    
+    
+    
+    image(x, y, i)
+    
+    if x < 600:
+    
+      x = x + 100
+    
+    else:
+    
+      x = 100
+    
+      y = y + 100
+    
  
 
   
 shuffleCards()  
 assignImages()
-createGrid()
+placeAnimals()
   
   
   
