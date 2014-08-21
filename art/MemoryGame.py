@@ -19,7 +19,7 @@ deck=[Card() for i in range(2)]+[Card() for i in range(2)]
 
 
 #randomize cards using shuffle
-random.shuffle(Cards)
+
 
 
 #create a grid of cards using for loop etc
