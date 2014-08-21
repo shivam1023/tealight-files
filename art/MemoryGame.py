@@ -3,7 +3,6 @@ from tealight.art import (screen_width, screen_height)
 
 
 
-class Cards:
   
 
 print screen_width
