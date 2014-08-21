@@ -123,6 +123,8 @@ def handle_mousedown(x,y,button):
      
     if cards_clicked==2:
       
+        refreshCards(v)
+      
         if deck[temp].name2==deck[v].name2:
           score=score+1
           print score
