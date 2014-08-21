@@ -87,6 +87,7 @@ def handle_mousedown(x,y,button):
   global lastx, lasty
   global cards_clicked
   global temp
+  global score
   
   if button == "left":
     lastx = x
@@ -118,7 +119,7 @@ def handle_mousedown(x,y,button):
           temp=None
           v=None
       else:
-        placeCards()
+        refreshCards(v)
         cards_clicked=0
         temp=None
         v=None
