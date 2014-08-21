@@ -34,8 +34,7 @@ def assignImages():
 def createGrid():
  image(200,200,deck[0][0].name2)
  
-assignImages()
-createGrid()
+
   
   
   
