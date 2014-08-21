@@ -6,6 +6,8 @@ background("paper.jpg")
 
 animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.png"]
 
+global deck
+
 class Card:
   def __init__(self,image):
     self.name = ""
