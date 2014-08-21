@@ -123,9 +123,9 @@ def handle_mousedown(x,y,button):
      #refreshCards(v)
       
      image(x,y,deck[v].name2)
-      if x < 600:
+     if x < 600:
        x = x + 100
-      else:
+     else:
        x = 150
        y = y + 100
       
