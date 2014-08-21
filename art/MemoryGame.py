@@ -43,6 +43,7 @@ def placeCards():
       x = 150
       y = y + 100
       
+      
 #handle mouse events etc  
 
 lastx = 0
@@ -59,13 +60,11 @@ def handle_mousemove(x,y,button):
     lasty = y
         
     
- 
-
-  
 shuffleCards()  
 assignImages()
 placeCards()
 
+image(50,50,deck[1].name2)
   
   
   
