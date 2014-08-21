@@ -5,7 +5,9 @@ background("paper.jpg")
 image(200,200,"misc/Card.png")
 
 
+
 listOfCards=[i for i in range(6)]+[i for i in range(8)]
+random.shuffle(listOfCards)
  
 
   
