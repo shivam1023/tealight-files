@@ -14,9 +14,6 @@ class Card():
 #create an array of objects of Card class 
 deck=[Card() for i in range(2)]+[Card() for i in range(2)]
 
-Cards = [None] 
-Cards=[i for i in range(2)]+[i for i in range(2)]
-
 #write function to display images to cards
 
 
