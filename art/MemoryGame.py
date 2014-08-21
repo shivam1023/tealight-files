@@ -12,10 +12,11 @@ class Card:
     self.turnedOver=False
    
 #create an array of objects of Card class 
-def deckarray():
+def createDeck():
  deck=[Card() for i in range(2)]+[Card() for i in range(2)]
 
 #write function to display images to cards
+
 
 
 
