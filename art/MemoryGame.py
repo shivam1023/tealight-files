@@ -15,7 +15,7 @@ global animals
 animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.png"]
 
 global deck
-deck = [[Card() for i in range(2)] for j in range(2)]
+deck = [Card() for i in range(4)]
    
 
   
@@ -29,17 +29,15 @@ def shuffleCards():
 #write function to assign images to Card objects
 def assignImages():
   
-  for i in range(0,2):
-    for j in range(0,2):
-     deck[i][j].name2=animals[0]
+  for i in range(0,3):
+     deck[i].name2=animals[i]
   
   
 
 #create a grid of cards using for loop etc
 def createGrid():
-  for i in range(0,2):
-    for j in range(0,2):
-     image(200,200,deck[i][j].name2)
+  for i in range(0,3):
+     image(200,200,deck[i].name2)
  
 
   
