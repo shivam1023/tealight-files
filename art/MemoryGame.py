@@ -61,8 +61,10 @@ def refreshCards(v):
   x = 150
   y = 150
   for i in range(0,48):
+    
+   if deck[i].turnedOver == False:
     if i==v:
-      if deck[i].turnedOver == False: 
+ 
        image(x,y,deck[v].name2)
        if x < 600:
         x = x + 100
@@ -71,7 +73,7 @@ def refreshCards(v):
         y = y + 100
          
     elif i == temp:
-      if deck[i].turnedOver == False: 
+      
        image(x,y,deck[temp].name2)
        if x < 600:
         x = x + 100
@@ -81,13 +83,14 @@ def refreshCards(v):
         
     else:
       
-      if deck[i].turnedOver == False: 
+       
         image(x, y,deck[i].name1)
         if x < 600:
          x = x + 100
         else:
          x = 150
          y = y + 100
+      
       
       
       
@@ -140,6 +143,7 @@ def handle_mousedown(x,y,button):
         refreshCards(v)
       
         if deck[temp].name2==deck[v].name2:
+          
           deck[temp].turnedOver=True
           deck[v].turnedOver=True
           
