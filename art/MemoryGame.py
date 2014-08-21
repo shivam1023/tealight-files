@@ -35,14 +35,14 @@ def assignImages():
 
 #create a grid of cards using for loop etc
 def placeCards():   
-  x = 100
-  y = 100
+  x = 150
+  y = 150
   for i in range(0,48):
     image(x, y,deck[i].name2)
     if x < 600:
       x = x + 100
     else:
-      x = 100
+      x = 150
       y = y + 100
     
  
