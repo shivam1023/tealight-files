@@ -77,13 +77,15 @@ def refreshCards(v):
        x = 150
        y = y + 100
         
-    else:  
-      image(x, y,deck[i].name1)
-      if x < 600:
-       x = x + 100
-      else:
-       x = 150
-       y = y + 100
+    else:
+      
+      if deck[i].turnedOver == False: 
+        image(x, y,deck[i].name1)
+        if x < 600:
+         x = x + 100
+        else:
+         x = 150
+         y = y + 100
       
       
       
@@ -141,7 +143,8 @@ def handle_mousedown(x,y,button):
           cards_clicked=0
           temp=None
           v=None
-          
+          deck[temp].turnedOver=True
+          deck[v].turnedOver=True
         else:
           
           cards_clicked=0
