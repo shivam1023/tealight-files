@@ -64,7 +64,7 @@ shuffleCards()
 assignImages()
 placeCards()
 
-image(50,50,deck[1].name2)
+image(50,50,deck[0].name2)
   
   
   
