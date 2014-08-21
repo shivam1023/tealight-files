@@ -36,7 +36,7 @@ def placeCards():
   x = 150
   y = 150
   for i in range(0,48):
-    image(x, y,deck[i].name1)
+    image(x, y,deck[i].name2)
     if x < 600:
       x = x + 100
     else:
