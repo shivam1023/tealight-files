@@ -25,7 +25,7 @@ deck = [[Card() for i in range(2)] for j in range(2)]
 #write function to assign images to Card objects
 def assignImages():
   
-  deck[0],[0].name="animals/Ant.png"
+  deck[0][0].name="animals/Ant.png"
   
   
 
