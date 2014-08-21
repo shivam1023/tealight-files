@@ -3,7 +3,7 @@ from tealight.art import (screen_width, screen_height)
 import random
 
 background("paper.jpg")
-image(200,200,"misc/Card.png")
+
 animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.png"]
 
 class Card:
@@ -14,19 +14,18 @@ class Card:
 #create an array of objects of Card class 
 def createDeck():
  deck=[Card() for i in range(2)]+[Card() for i in range(2)]
+  
+  
+#shuffle string array of image locations  
 
 #write function to assign images to Card objects
 def assignImages():
+  
   deck[1].name="animals/Ant.png"
- 
-
-
-
-
-
-
+  
 
 #create a grid of cards using for loop etc
+image(200,200,deck[1])
  
 
   
