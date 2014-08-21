@@ -6,16 +6,17 @@ background("paper.jpg")
 
 animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.png"]
 
-global deck
+
 
 class Card:
   def __init__(self,image):
     self.name = ""
     self.turnedOver=False
+    
+global deck
+deck=[Card() for i in range(2)]+[Card() for i in range(2)]
    
-#create an array of objects of Card class 
-def createDeck():
- deck=[Card() for i in range(2)]+[Card() for i in range(2)]
+#create an array of objects of Card class
   
   
 #shuffle string array of image locations  
