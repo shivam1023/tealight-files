@@ -21,7 +21,7 @@ def createDeck():
 #write function to assign images to Card objects
 def assignImages():
   
-  deck[1].name="animals/Ant.png"
+  deck[0,0].name="animals/Ant.png"
   
 
 #create a grid of cards using for loop etc
