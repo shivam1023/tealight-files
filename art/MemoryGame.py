@@ -13,7 +13,7 @@ class Card:
    
 #create an array of objects of Card class 
 def createDeck():
- Matrix =[Card() for i in range(2)]+[Card() for i in range(2)]
+ deck =[Card() for i in range(2)]+[Card() for i in range(2)]
 
 #write function to assign images to cards
 def assignImages():
