@@ -39,11 +39,11 @@ def placeCards():
   x = 100
   y = 100
   
-  for i in animals[::-1]:
+  for i in deck:
     
     
     
-    image(x, y, i)
+    image(x, y, )
     
     if x < 600:
     
