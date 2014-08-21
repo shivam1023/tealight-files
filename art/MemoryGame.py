@@ -8,18 +8,24 @@ animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.pn
 
 class Card():
   def __init__(self):
-    name = ""
-    turnedOver=False
+    self.name = ""
+    self.turnedOver=False
    
-    
+#create an array of objects of Card class 
+deck=[Card() for i in range(2)]+[Card() for i in range(2)]
 
 Cards = [None] 
-
-
 Cards=[i for i in range(2)]+[i for i in range(2)]
-random.shuffle(Cards)
-turnedOver=[False for i in range(16)]
 
+#write function to display images to cards
+
+
+
+#randomize cards using shuffle
+random.shuffle(Cards)
+
+
+#create a grid of cards using for loop etc
  
 
   
@@ -31,7 +37,7 @@ turnedOver=[False for i in range(16)]
 
   
   
-  
+#handle mouse events etc  
 lastx = 0
 lasty = 0
 
