@@ -117,8 +117,11 @@ def handle_mousedown(x,y,button):
          score = score + 1
          print score 
          cards_clicked = 0
+         temp=None
+         v=None 
         else:
-         
+         temp=None
+         v=None 
          cards_clicked=0
          refreshCards(v)
           
