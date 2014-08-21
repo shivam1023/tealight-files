@@ -9,7 +9,7 @@ animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.pn
 
 
 class Card:
-  def __init__(self,image):
+  def __init__(self):
     self.name = ""
     self.turnedOver=False
     
