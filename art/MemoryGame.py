@@ -29,8 +29,9 @@ def shuffleCards():
 #write function to assign images to Card objects
 def assignImages():
   
-  
- deck[0][0].name2=animals[0]
+  for i in range(0,2):
+    for j in range(0,2):
+     deck[i][j].name2=animals[0]
   
   
 
