@@ -45,20 +45,24 @@ def placeCards():
       
       
 #handle mouse events etc  
-
 lastx = 0
 lasty = 0
-def handle_mousedown(x,y):
-  global lastx, lasty
-  lastx = x
-  lasty = y
 
-def handle_mousemove(x,y,button):
+#Click detection and card identification
+def handle_mousedown(x,y,button):
   global lastx, lasty
+  
   if button == "left":
     lastx = x
     lasty = y
+    a = (lastx - 150)/100
+    b = (lasty - 150)/100
+    v = b * width + a
+    print "Cell: (%d, %d), n: %d" % (a,b,v)
         
+  
+  
+  
     
 shuffleCards()  
 assignImages()
