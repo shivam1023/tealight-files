@@ -67,6 +67,15 @@ def refreshCards(v):
       else:
        x = 150
        y = y + 100
+        
+    elif i == temp:
+      image(x,y,deck[temp].name2)
+      if x < 600:
+       x = x + 100
+      else:
+       x = 150
+       y = y + 100
+        
     else:  
       image(x, y,deck[i].name1)
       if x < 600:
