@@ -44,7 +44,7 @@ image(200,200,deck[0][0].name)
   
   
 #handle mouse events etc  
-def mousestuff:
+def mousestuff():
  lastx = 0
  lasty = 0
 
