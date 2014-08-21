@@ -42,6 +42,23 @@ def placeCards():
     else:
       x = 150
       y = y + 100
+      
+#handle mouse events etc  
+def mousestuff():
+ lastx = 0
+ lasty = 0
+
+ def handle_mousedown(x,y):
+  global lastx, lasty
+  lastx = x
+  lasty = y
+
+ def handle_mousemove(x,y,button):
+  global lastx, lasty
+  if button == "left":
+    lastx = x
+    lasty = y
+        
     
  
 
@@ -58,19 +75,4 @@ placeCards()
 
   
   
-#handle mouse events etc  
-def mousestuff():
- lastx = 0
- lasty = 0
 
- def handle_mousedown(x,y):
-  global lastx, lasty
-  lastx = x
-  lasty = y
-
- def handle_mousemove(x,y,button):
-  global lastx, lasty
-  if button == "left":
-    lastx = x
-    lasty = y
-  
