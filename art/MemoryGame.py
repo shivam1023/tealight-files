@@ -6,15 +6,14 @@ background("paper.jpg")
 
 animals=["animals/Ant.png","animals/Ant.png","animals/Bear.png","animals/Bear.png"]
 
-
-
 class Card:
   def __init__(self):
     self.name = ""
     self.turnedOver=False
     
+    
 global deck
-deck=[Card() for i in range(2)]+[Card() for i in range(2)]
+deck = [[Card for i in range(2)] for j in range(2)]
    
 #create an array of objects of Card class
   
