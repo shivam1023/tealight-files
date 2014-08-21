@@ -30,7 +30,7 @@ def shuffleCards():
 def assignImages():
   
   
- deck[0][0].name2="animals/Ant.png"
+ deck[0][0].name2=animals[0]
   
   
 
