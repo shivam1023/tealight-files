@@ -83,9 +83,11 @@ cards_clicked =0
 
 #Click detection and card identification
 def handle_mousedown(x,y,button):
+  
   global lastx, lasty
   global cards_clicked
   global temp
+  
   if button == "left":
     lastx = x
     lasty = y
@@ -106,24 +108,38 @@ def handle_mousedown(x,y,button):
      temp = v
       
      refreshCards(v) 
+      
+    if cards_clicked==2:
+      if temp==v:
+        if deck[temp].name2==deck[v].name2:
+          score=score+1
+          print score
+          cards_clicked=0
+          temp=None
+          v=None
+      else:
+        placeCards()
+        cards_clicked=0
+        temp=None
+        v=None
      
     
-    elif cards_clicked == 2:
+    #elif cards_clicked == 2:
       
-       refreshCards(v)
+     #  refreshCards(v)
   
-       if temp == v:  #possibly need new variable or to reference deck[]
-        if deck[temp].name2==deck[v].name2:
-         score = score + 1
-         print score 
-         cards_clicked = 0
-         temp=None
-         v=None 
-        else:
-         temp=None
-         v=None 
-         cards_clicked=0
-         placeCards()
+      # if temp == v:  #possibly need new variable or to reference deck[]
+       # if deck[temp].name2==deck[v].name2:
+        # score = score + 1
+         #print score 
+  #       cards_clicked = 0
+   #      temp=None
+    #     v=None 
+     #   else:
+      #   temp=None
+       #  v=None 
+        # cards_clicked=0
+         #placeCards()
           
      
       
