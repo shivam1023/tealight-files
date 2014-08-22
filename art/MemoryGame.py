@@ -64,6 +64,8 @@ def placeCards():
 #assign individual card
 def refreshCards(v):
   
+  background("paper.jpg")
+  
   global x
   global y
   global temp
