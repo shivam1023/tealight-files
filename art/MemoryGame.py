@@ -180,7 +180,7 @@ def handle_mousedown(x,y,button):
           
           
     if score == 24:
-      image(285, 499, "http://i.imgur.com/uwIg3Du.png")
+      image(250, 499, "http://i.imgur.com/uwIg3Du.png")
       
     else:
       text(780,50,"Score: %d" %score)
