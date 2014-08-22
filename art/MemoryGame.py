@@ -166,7 +166,7 @@ def handle_mousedown(x,y,button):
             deck[v].turnedOver=True
             
             score=score+1
-            print score
+            #print score
           
           refreshCards(v)
           
