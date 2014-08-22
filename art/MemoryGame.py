@@ -140,48 +140,48 @@ def handle_mousedown(x,y,button):
     
 
     #when a card has been clicked
-    while v>-1 and v<49:
-      cards_clicked = cards_clicked + 1
+    
+    cards_clicked = cards_clicked + 1
 
-      if cards_clicked == 1:
+    if cards_clicked == 1:
   
     
-       temp = v
+     temp = v
       
-       refreshCards(v)
+     refreshCards(v)
      
-      if cards_clicked==2:
+    if cards_clicked==2:
       
         #refreshCards(v)
       
-          if deck[temp].name2==deck[v].name2:
+        if deck[temp].name2==deck[v].name2:
           
-            deck[temp].turnedOver=True
-            deck[v].turnedOver=True
+          deck[temp].turnedOver=True
+          deck[v].turnedOver=True
           
-            refreshCards(v)
+          refreshCards(v)
           
-            score=score+1
-            print score
-            cards_clicked=0
-            temp=None
-            v=None
+          score=score+1
+          print score
+          cards_clicked=0
+          temp=None
+          v=None
           
-          else:
+        else:
           
-            refreshCards(v)
+          refreshCards(v)
           
-            cards_clicked=0
-            temp=None
-            v=None
+          cards_clicked=0
+          temp=None
+          v=None
           
           
           
-      if score == 24:
-        text(370,973,"You win, go away!")
+    if score == 24:
+      text(370,973,"You win, go away!")
       
-      else:
-        text(370,973,"You have scored, %d" %score)
+    else:
+      text(370,973,"You have scored, %d" %score)
      
     
  
