@@ -4,6 +4,7 @@ import random
 from random import shuffle
 
 background("paper.jpg")
+color("red")
 
 #create the card class
 class Card:
