@@ -64,8 +64,6 @@ def placeCards():
 #assign individual card
 def refreshCards(v):
   
-  background("paper.jpg")
-  
   global x
   global y
   global temp
@@ -74,8 +72,6 @@ def refreshCards(v):
   x = 150
   y = 150
   for i in range(0,48):
-    
-    
     if i==v:
        
        image(x,y,deck[v].name2)
