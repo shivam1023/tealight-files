@@ -160,7 +160,7 @@ def handle_mousedown(x,y,button):
       
         if deck[temp].name2==deck[v].name2:
           
-          if deck[v].turnedOver==False:
+          if deck[v].turnedOver==False and deck[temp].turnedOver==False:
           
             deck[temp].turnedOver=True
             deck[v].turnedOver=True
