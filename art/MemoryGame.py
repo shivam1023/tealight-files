@@ -135,7 +135,7 @@ def handle_mousedown(x,y,button):
     a = (lastx - 150)/100
     b = (lasty - 150)/100
     v = b * 6 + a
-    #print "Cell: (%d, %d), n: %d" % (a,b,v)
+    print "Cell: (%d, %d), n: %d" % (a,b,v)
     
     
 
