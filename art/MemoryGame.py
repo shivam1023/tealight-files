@@ -178,7 +178,7 @@ def handle_mousedown(x,y,button):
           
           
     if score == 24:
-      text(50,50,"You win, go away!")
+      text(500,50,"You win, go away!")
       
     else:
       text(50,50,"You have scored, %d" %score)
