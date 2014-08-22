@@ -3,6 +3,7 @@ from tealight.art import (screen_width, screen_height)
 import random
 from random import shuffle
 
+#define background/colors/title
 background("paper.jpg")
 color("brown")
 image(245, 50, "http://i.imgur.com/uwIg3Du.png")
@@ -14,9 +15,10 @@ class Card:
     self.name2= ""
     self.turnedOver=False
     
-#create two global arrays for storing the Card objects and the animal locations    
+#create global array for storing the animal locations    
 global animals
 animals = ["animals/Bear.png", "animals/Bear.png", "animals/Cat.png", "animals/Cat.png", "animals/Dog.png", "animals/Dog.png", "animals/Elephant.png", "animals/Elephant.png", "animals/Frog.png", "animals/Frog.png", "animals/Horse.png", "animals/Horse.png", "animals/Ladybird.png", "animals/Ladybird.png", "animals/Lion.png", "animals/Lion.png", "animals/Lobster.png", "animals/Lobster.png", "animals/Penguin.png", "animals/Penguin.png", "animals/Puffin.png", "animals/Puffin.png", "animals/Seagull.png", "animals/Seagull.png", "animals/Seal.png", "animals/Seal.png", "animals/Sheep.png", "animals/Sheep.png", "animals/Swan.png", "animals/Swan.png", "animals/Tiger.png", "animals/Tiger.png", "animals/Ant.png", "animals/Ant.png", "animals/Butterfly.png", "animals/Butterfly.png", "animals/Diplodocus.png", "animals/Diplodocus.png", "animals/Dolphin.png", "animals/Dolphin.png", "animals/Fish1.png", "animals/Fish1.png", "animals/Stegosaurus.png", "animals/Stegosaurus.png", "animals/Fish2.png", "animals/Fish2.png", "animals/Pterodactyl.png", "animals/Pterodactyl.png"] 
+#create global array for storing the Card objects  
 global deck
 deck = [Card() for i in range(48)]
 foundCards=[i for i in range(48)]
