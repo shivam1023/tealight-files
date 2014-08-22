@@ -155,18 +155,22 @@ def handle_mousedown(x,y,button):
     if cards_clicked==2:
       
         #refreshCards(v)
-      if deck[v].turnedOver==False:
-        score=score-1
+      
+        
       
         if deck[temp].name2==deck[v].name2:
           
-          deck[temp].turnedOver=True
-          deck[v].turnedOver=True
+          if deck[v].turnedOver==False:
+          
+            deck[temp].turnedOver=True
+            deck[v].turnedOver=True
+            
+            score=score+1
+            print score
           
           refreshCards(v)
           
-          score=score+1
-          print score
+          
           cards_clicked=0
           temp=None
           v=None
