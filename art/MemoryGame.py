@@ -181,7 +181,7 @@ def handle_mousedown(x,y,button):
           
     if score == 24:
       color("black")
-      box(240,380, 400, 300)
+      box(240,400, 400, 250)
       image(275, 450, "http://i.imgur.com/eSSXfA8.png")
       
     else:
