@@ -173,6 +173,11 @@ def handle_mousedown(x,y,button):
           cards_clicked=0
           temp=None
           v=None
+          
+          
+          
+    if score == 24:
+      print "You win, go away!"
      
     
  
