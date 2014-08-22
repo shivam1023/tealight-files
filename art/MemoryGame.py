@@ -67,6 +67,7 @@ def placeCards():
 def refreshCards(v):
   
   background("paper.jpg")
+  image(245, 50, "http://i.imgur.com/uwIg3Du.png")
   
   global x
   global y
