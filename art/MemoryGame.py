@@ -22,7 +22,7 @@ animals = ["animals/Bear.png", "animals/Bear.png", "animals/Cat.png", "animals/C
 global deck
 deck = [Card() for i in range(48)]
 
-
+#initialise variables for x,y coordinates and game variables like score/temp
 x=0
 y=0
 
@@ -49,7 +49,7 @@ def assignImages():
   
   
 
-#create a grid of cards using for loop etc
+#create a grid of cards using for loop
 def placeCards(): 
 
   global x
@@ -65,7 +65,7 @@ def placeCards():
       x = 150
       y = y + 100
       
-#assign individual card
+#refresh screen after each card is flipped over
 def refreshCards(v):
   
   background("paper.jpg")
@@ -79,9 +79,7 @@ def refreshCards(v):
   x = 150
   y = 150
   for i in range(0,48):
-    
-
-          
+     
     if i==v:
        
        image(x,y,deck[v].name2)
@@ -124,7 +122,7 @@ assignImages()
 placeCards()
    
 
-#Click detection and card identification
+#Click detection and card identification and also game logic
 def handle_mousedown(x,y,button):
   
   global lastx, lasty
