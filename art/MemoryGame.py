@@ -91,8 +91,6 @@ def refreshCards(v):
         y = y + 100
         
     else:
-      
-      if deck[i].turnedOver == False: 
         image(x, y,deck[i].name1)
         if x < 600:
          x = x + 100
