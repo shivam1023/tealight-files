@@ -180,10 +180,10 @@ def handle_mousedown(x,y,button):
           
           
     if score == 24:
-      text(686,35,"You win, go away!")
+      text(686,50,"You win, go away!")
       
     else:
-      text(686,35,"You have scored, %d" %score)
+      text(686,50,"You have scored, %d" %score)
      
     
  
