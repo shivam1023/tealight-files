@@ -186,8 +186,8 @@ def handle_mousedown(x,y,button):
       color("black")
       box(260,420, 360, 210)
       
-      #color("brown")
-      #box(240,400, 400, 250)
+      color("brown")
+      box(280,440, 320, 170)
       
       
       image(275, 450, "http://i.imgur.com/eSSXfA8.png")
