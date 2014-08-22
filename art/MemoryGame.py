@@ -22,6 +22,15 @@ foundCards=[i for i in range(48)]
 x=0
 y=0
 
+lastx = 0
+lasty = 0
+
+score = 0
+
+temp = None
+
+cards_clicked =0
+
 
 #shuffle string array of image locations
 def shuffleCards():
@@ -57,6 +66,8 @@ def refreshCards(v):
   
   global x
   global y
+  global temp
+  
     
   x = 150
   y = 150
@@ -89,22 +100,12 @@ def refreshCards(v):
          x = 150
          y = y + 100
       
-      
-      
-      
-#handle mouse events etc  
-lastx = 0
-lasty = 0
-
-
-
-
-score = 0
-
- 
-temp = None
-
-cards_clicked =0
+        
+  
+shuffleCards()  
+assignImages()
+placeCards()
+   
 
 #Click detection and card identification
 def handle_mousedown(x,y,button):
@@ -202,17 +203,7 @@ def handle_mousedown(x,y,button):
     
     
     
-    
-    
-    
-    
-    
-         
-  
-shuffleCards()  
-assignImages()
-placeCards()
-   
+
   
   
   
