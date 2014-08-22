@@ -181,7 +181,7 @@ def handle_mousedown(x,y,button):
       text(500,50,"You win, go away!")
       
     else:
-      text(50,50,"You have scored, %d" %score)
+      text(500,50,"You have scored, %d" %score)
      
     
  
