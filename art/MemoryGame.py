@@ -5,7 +5,7 @@ from random import shuffle
 
 background("paper.jpg")
 color("red")
-image(50, 50, "http://imgur.com/uwIg3Du")
+image(50, 50, "http://i.imgur.com/uwIg3Du.png")
 
 #create the card class
 class Card:
