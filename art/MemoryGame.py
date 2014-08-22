@@ -155,6 +155,7 @@ def handle_mousedown(x,y,button):
     if cards_clicked==2:
       
         #refreshCards(v)
+      if deck[v].turnedOver==False:
       
         if deck[temp].name2==deck[v].name2:
           
@@ -195,55 +196,4 @@ def handle_mousedown(x,y,button):
     else:
       text(780,50,"Score: %d" %score)
      
-    
- 
-
-
   
-  
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
