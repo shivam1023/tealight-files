@@ -4,7 +4,7 @@ import random
 from random import shuffle
 
 background("paper.jpg")
-color("red")
+color("brown")
 image(245, 50, "http://i.imgur.com/uwIg3Du.png")
 
 #create the card class
