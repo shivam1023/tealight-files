@@ -19,8 +19,6 @@ global deck
 deck = [Card() for i in range(48)]
 foundCards=[i for i in range(48)]
 
-text(50,50,"You win, go away!")
-
 x=0
 y=0
 
@@ -178,8 +176,11 @@ def handle_mousedown(x,y,button):
           
           
           
-    
-        
+    if score == 24:
+      print "You win, go away!"
+      
+    else:
+      text(50,50,"You have scored, %d" %score)
      
     
  
