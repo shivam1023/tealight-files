@@ -21,7 +21,7 @@ animals = ["animals/Bear.png", "animals/Bear.png", "animals/Cat.png", "animals/C
 #create global array for storing the Card objects  
 global deck
 deck = [Card() for i in range(48)]
-foundCards=[i for i in range(48)]
+
 
 x=0
 y=0
