@@ -3,6 +3,7 @@ from tealight.art import (screen_width, screen_height)
 import random
 from random import shuffle
 
+#Tip: use screen_height/screen_width calculations to ajdust grid depending on screen size.
 
 #########
 #Authors:
